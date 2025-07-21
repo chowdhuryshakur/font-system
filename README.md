@@ -44,15 +44,15 @@ A responsive single-page application for managing font groups with real-time pre
 
 ## API Endpoints
 ```bash
-Endpoint	                Method	       Description
+Endpoint                 Method          Description
 
-/api/fonts               POST	          Upload a font
-/api/fonts               GET	          List all fonts
-/api/fonts/:id           DELETE	       Delete a font
-/api/font-groups         POST	          Create a group
-/api/font-groups         GET	          List all groups
-/api/font-groups/:id     PUT	          Update a font group
-/api/font-groups/:id     DELETE	       Delete a font group
+/api/fonts               POST            Upload a font
+/api/fonts               GET             List all fonts
+/api/fonts/:id           DELETE          Delete a font
+/api/font-groups         POST            Create a group
+/api/font-groups         GET             List all groups
+/api/font-groups/:id     PUT             Update a font group
+/api/font-groups/:id     DELETE          Delete a font group
 ```
 
 ## Project Structure
