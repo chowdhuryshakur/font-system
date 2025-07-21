@@ -28,22 +28,22 @@ A responsive single-page application for managing font groups with real-time pre
 
 ## Setup  
 1. Clone the repo:  
-   git clone https://github.com/chowdhuryshakur/font-system.git
+   - git clone [https://github.com/chowdhuryshakur/font-system.git](https://github.com/chowdhuryshakur/font-system.git)
 
 2. Install dependencies:
-   cd font-group-system
-   npm install
+   - cd font-group-system
+   - npm install
 
 3. Start the server:
-   npm run dev
+   - npm run dev
 
 4. Open http://localhost:5000
 
 ## API Endpoints
-### Endpoint	  Method	Description
+### Endpoint	  Method	    Description
 /api/fonts	      POST	    Upload a font
 /api/fonts	      GET	    List all fonts
-/api/fonts/:id	  DELETE	Delete a font
+/api/fonts/:id	   DELETE	 Delete a font
 /api/font-groups  POST	    Create a group
 /api/font-groups  GET	    List all groups
 
