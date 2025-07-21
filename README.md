@@ -27,27 +27,33 @@ A responsive single-page application for managing font groups with real-time pre
 - **Storage**: Local filesystem (fonts), in-memory DB (groups)  
 
 ## Setup  
-1. Clone the repo:  
-   - git clone [https://github.com/chowdhuryshakur/font-system.git](https://github.com/chowdhuryshakur/font-system.git)
-
-2. Install dependencies:
-   - cd font-group-system
-   - npm install
-
-3. Start the server:
-   - npm run dev
-
-4. Open http://localhost:5000
+1. Clone the repo:
+   ```bash
+   git clone [https://github.com/chowdhuryshakur/font-system.git](https://github.com/chowdhuryshakur/font-system.git)
+   ```
+3. Install dependencies:
+   ```bash
+   cd font-group-system
+   npm install
+   ```
+5. Start the server:
+   ```bash
+   npm run dev
+   ```
+7. Open http://localhost:5000
 
 ## API Endpoints
+```bash
 **Endpoint**	  **Method** **Description**
 /api/fonts	      POST	    Upload a font
 /api/fonts	      GET	    List all fonts
 /api/fonts/:id	   DELETE	 Delete a font
 /api/font-groups  POST	    Create a group
 /api/font-groups  GET	    List all groups
+```
 
 ## Project Structure
+```bash
 font-group-system/
 ├── public/          # Frontend assets
 │   ├── css/
@@ -59,3 +65,4 @@ font-group-system/
 │   ├── server.js    # Express app
 │   └── uploads/     # Multer temp files
 └── README.md
+```
