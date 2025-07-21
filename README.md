@@ -29,7 +29,7 @@ A responsive single-page application for managing font groups with real-time pre
 ## Setup  
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/chowdhuryshakur/font-system.git](https://github.com/chowdhuryshakur/font-system.git)
+   git clone https://github.com/chowdhuryshakur/font-system.git
    ```
 3. Install dependencies:
    ```bash
