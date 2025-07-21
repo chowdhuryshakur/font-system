@@ -40,7 +40,7 @@ A responsive single-page application for managing font groups with real-time pre
 4. Open http://localhost:5000
 
 ## API Endpoints
-### Endpoint	  Method	    Description
+**Endpoint**	  **Method** **Description**
 /api/fonts	      POST	    Upload a font
 /api/fonts	      GET	    List all fonts
 /api/fonts/:id	   DELETE	 Delete a font
